@@ -1,0 +1,15 @@
+*/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --primary-color: #FF6900;
+    --secondary-color: #1A1A1A;
+    --discount-color: #FF0000;
+    --tag-color: #008000;
+}
