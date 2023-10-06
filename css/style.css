@@ -90,7 +90,7 @@ width: 100%;
 }
 
 .container{
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
@@ -226,6 +226,38 @@ width: 100%;
 
 .item-6:hover{
     background-image: url(../img/6b.webp);
+}
+
+/* footer */
+#footer{
+    background-color: var(--secondary-color);
+    color: var(--ligth);
+    padding: 1rem 0;
+    margin-top: 3rem;
+}
+
+#footer .row{
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer ul{
+    margin-top: .3rem;
+}
+
+#footer ul a{
+    gap: .5rem;
+    color: var(--ligth);
+    font-size: .8rem;   
+
+}
+
+#footer .icons a{
+    font-size: 1rem;
+}
+
+#footer .icons{
+    gap: .3rem;
 }
 /* --------------------
      /general_css
